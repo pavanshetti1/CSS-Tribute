@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #1D2B53;
+}
+
+.heading{
+    width: 80vw;
+    height:60vh;
+    margin: 30px 100px;
+    background-color:#FF004D;
+    padding:20px 20px 0px 50px;
+    display:flex;
+    border:1.5px solid white;
+    border-radius:10px;
+}
+
+.heading img{
+    height:300px;
+    width:500px;
+    border: 3px solid #7E2553;
+    border-radius: 50px;
+    position:relative;
+    left:50px;
+}
+
+.head{
+    width:35vw;
+    height:300px;
+    font-size:1.5rem;
+    text-align:center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items:center;
+    color:white;
+    font-family: 'Anton', sans-serif;
+}
+
+.time-line{
+    width: 80vw;
+    height:120vh;
+    margin: 30px 100px;
+    background-color: #FAEF5D;
+    border-radius:10px;
+    border:1.5px solid black;
+    padding:40px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:28px;
+}
+.time-line   li{
+    list-style-position: inside;
+}
+
+.time-line h2{
+    text-align:center;
+    font-size:2rem;
+    color:#B80000;
+    text-decoration: 2px solid underline #820300;
+}
+
+.time-line p{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.timeline-contents{
+    width:55%;
+    margin-left:250px;
+    font-size:1.3rem;
+}
+
+.quote{
+    font-size: 1.8rem;
+    margin:20px 40px 0px 40px;
+    text-align:center;
+}
+
+.text{
+    text-align:center;
+    font-weight:700;
+    font-size:1.8rem;
+    font-family:cursive;
+}
+
+.link{
+    text-align:center;
+    height:40px;
+    background-color: silver;
+    font-size:1.5rem;
+    padding-top:7px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0 50px;
+    border-radius:20px;
+}
+
+footer{
+    height:50px;
+    background-color:#FF9800;
+    margin:20px 10px 20px 10px;
+   border-radius:5px;
+   border:2px solid #820300;
+    text-align:center;
+    font-size:1.8rem;
+    color:#1D2B53;
+}
